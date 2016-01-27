@@ -4,6 +4,6 @@ machine:
       oraclejdk8 
 
 deployment:
- release:
-  commands:	
-  - ant deployCodeRunLocalTests
+  release:
+    commands:
+      - ant deployCodeRunLocalTests
