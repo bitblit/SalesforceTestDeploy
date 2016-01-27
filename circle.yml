@@ -5,4 +5,5 @@ machine:
 
 deployment:
   release:
-    ant deployCodeRunLocalTests
+    commands:	
+      ant deployCodeRunLocalTests
