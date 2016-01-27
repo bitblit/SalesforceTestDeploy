@@ -5,6 +5,6 @@ machine:
 
 deployment:
   release:
-    tag: /release-.*/
+    branch: /release-.*/
     commands:
       - ant deployCodeRunLocalTests
